@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f1f1f1;
+    font-weight: normal;
+    color: rgb(8, 2, 2);
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+}
+/* .aboutMe{
+    background-color: rgb(247, 253, 255);
+    border-radius: 15px;
+    margin: 5px 0 10px 0;
+    padding: 20px 20px;
+} */
+.contactInfo{
+    background-color: rgb(255, 253, 246);
+    /* border: 1px solid rgb(97, 97, 97); */
+    border-radius: 15px;
+    /* color: rgb(0, 0, 0); */
+    padding: 20px;
+}
+.contactInfo p{
+    margin: 0;
+}
+.education{
+    background-color: rgb(236, 228, 255);
+    /* border: 1px solid rgb(97, 97, 97); */
+    border-radius: 15px;
+    /* color: rgb(0, 0, 0); */
+    margin: 10px 0 10px 0;
+    padding: 20px;
+}
+.myExperiece{
+    background-color: rgb(227, 255, 221);
+    /* border: 1px solid rgb(97, 97, 97); */
+    border-radius: 15px;
+    /* color: rgb(0, 0, 0); */
+    padding: 20px;
+}
+.skillsHard{
+    background-color: rgb(255, 236, 236);
+    /* border: 1px solid rgb(97, 97, 97); */
+    border-radius: 15px;
+    /* color: rgb(0, 0, 0); */
+    margin: 10px 0 10px 0;
+    padding: 20px;
+}
+.skillsSoft{
+    background-color: rgb(225, 233, 255);
+    /* border: 1px solid rgb(97, 97, 97); */
+    border-radius: 15px;
+    /* color: rgb(0, 0, 0); */
+    padding: 20px;
+}
+.myHobbies{
+    background-color: rgb(255, 231, 231);
+    /* border: 1px solid rgb(97, 97, 97); */
+    border-radius: 15px;
+    /* color: rgb(0, 0, 0); */
+    margin: 10px 0 10px 0;
+    padding: 20px;
+}
+/* .contactMe{
+    background-color: rgb(255, 252, 212);
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+} */
+.container{
+    margin: 0 auto;
+    max-width: 700px;
+    color: rgb(0, 0, 0);
+}
+.info{
+    display: flex;
+    width: 100%;
+}
+.avatar{
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    width: 180px;
+    margin-right: 30px;
+    /* margin-left: 5px; */
+}
+h4{
+    margin: 0 0 10px 0;
+}
+a{
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(47, 0, 255);
+}
+/* .btn{
+    background-color: #111;
+    padding: 8px 13px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+} */
+/* .btn:hover{
+    opacity: 0.8;
+} */
+.list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.list li{
+    margin-bottom: 6px;
+    border-bottom: 1px solid gray;
+    border-left: 5px solid gray;
+    padding-left: 10px;
+}
+.list li:hover{
+    color: rgb(82, 82, 82);
+}
+.table{
+    width: 100%;
+}
+.table td{
+    text-align: center;
+}
+.thead{
+    text-decoration: underline;
+}
+.tbody td:hover{
+    background-color: rgb(210, 255, 200);
+}
+/* label{
+    display: block;
+} */
+/* input{
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    box-sizing: border-box;
+    color: #000;
+} */
+/* input:focus{
+    outline: none;
+} */
+/* textarea{
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    color: #000;
+} */
+/* textarea:focus{
+    outline: none;
+} */
+/* .form input{
+    width: 100%;
+} */
+/* .row :nth-child(1), .row :nth-child(2){
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+} */
+
+/* .nth{
+    margin-right: 0;
+} */
+/* .row{
+    display: flex;
+    margin-bottom: 10px;
+}
+.formTwo{
+    margin-left: 45px;
+} */
+@media(max-width: 610px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+    .avatar{
+        margin-right: 0;
+        text-align: center;
+    }
+}
+/* @media(max-width: 550px){
+    .row{
+        text-align: center;
+        display: block;
+        text-align: left;
+    }
+    .row :nth-child(1), .row :nth-child(2){
+        margin-left: 0;
+        width: 100%;
+    }
+} */
+
+
+
+
+
